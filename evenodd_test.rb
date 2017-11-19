@@ -30,4 +30,11 @@ class TestEvenOdd < Minitest::Test
 		assert_equal("even", numberEval(845847574))
 	end
 
+	def test_assert_that_741_is_odd
+		assert_equal("odd", numberEval(741))
+	end
+
+	def test_assert_that_evenOddChecker_says_1_is_odd
+		assert_equal("odd", evenOddChecker(1))
+	end
 end
