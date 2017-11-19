@@ -37,4 +37,9 @@ class TestEvenOdd < Minitest::Test
 	def test_assert_that_evenOddChecker_says_1_is_odd
 		assert_equal("odd", evenOddChecker(1))
 	end
+
+	def test_assert_that_evenOddChecker_says_2_is_even
+		assert_equal("even", evenOddChecker(2))
+	end
+
 end
