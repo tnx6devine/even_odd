@@ -9,9 +9,9 @@ end
 
 def numberEval(test_number)
 	number = test_number
-	if number == 1
-		"odd"
-	else
+	if number % 2 == 0
 		"even"
+	else
+		"odd"
 	end
 end
